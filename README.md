@@ -6,20 +6,20 @@ Flat screen lock for Flutter.
 
 1. Depend on it
 
-```
+```yaml
 dependencies:
   flat_screen_lock: "^0.0.1"
 ```
 
 2. Install it
 
-```
+```sh
 $ flutter packages get
 ```
 
 3. Import it
 
-```
+```dart
 import 'package:flat_screen_lock/flat_screen_lock.dart';
 ```
 
