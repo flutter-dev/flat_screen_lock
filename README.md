@@ -2,13 +2,15 @@
 
 Flat screen lock for Flutter.
 
+![](http://o6p4e1uhv.bkt.clouddn.com/IMG_0462.JPG)
+
 ## How to use ?
 
 1. Depend on it
 
 ```yaml
 dependencies:
-  flat_screen_lock: "^0.0.1"
+  flat_screen_lock: "^0.0.2"
 ```
 
 2. Install it
