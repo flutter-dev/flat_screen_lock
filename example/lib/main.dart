@@ -1,31 +1,3 @@
-# flat_screen_lock
-
-Flat screen lock for Flutter.
-
-## How to use ?
-
-1. Depend on it
-
-```
-dependencies:
-  flat_screen_lock: "^0.0.1"
-```
-
-2. Install it
-
-```
-$ flutter packages get
-```
-
-3. Import it
-
-```
-import 'package:flat_screen_lock/flat_screen_lock.dart';
-```
-
-## Example 
-
-```dart
 import 'package:flutter/material.dart';
 import 'package:flat_screen_lock/flat_screen_lock.dart';
 import 'package:flat_screen_lock_example/home_page.dart';
@@ -79,4 +51,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-```
