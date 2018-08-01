@@ -71,12 +71,14 @@ class _MyHomePageState extends State<MyHomePage> {
             if (codes[i] != myCodes[i]) {
               return false;
             }
-          }
+          }          
+          return true;
+        },
+        onVerified: () {
           Navigator.of(context).pushReplacement(new MaterialPageRoute(builder: (BuildContext context){
             return new HomePage();
           }));
-          return true;
-        },
+        }
       ),
     );
   }
