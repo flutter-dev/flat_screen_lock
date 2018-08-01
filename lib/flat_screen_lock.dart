@@ -20,17 +20,21 @@ class FlatScreenLockPage extends StatefulWidget {
   ///数字密码校验回调，返回 true 表示密码验证正确，false 表示密码验证错误。
   final CodeVerify codeVerify;
 
+  final VoidCallback onVerified;
+
   FlatScreenLockPage(
       {this.title,
       this.codeLength,
       this.backgroundColor,
       this.foregroundColor,
-      this.codeVerify,})
+      this.codeVerify,
+      this.onVerified,})
       : assert(title != null),
         assert(codeLength > 0),
         assert(backgroundColor != null),
         assert(foregroundColor != null),
-        assert(codeVerify != null);
+        assert(codeVerify != null),
+        assert(onVerified != null);
 
   @override
   State<StatefulWidget> createState() {
@@ -124,6 +128,7 @@ class FlatScreenLockPageState extends State<FlatScreenLockPage> {
             setState(() {
               _currentState = 1;
             });
+            widget.onVerified();
           } else {
             _currentState = 2;
             new Timer(new Duration(milliseconds: 1000), () {
