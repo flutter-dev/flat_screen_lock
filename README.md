@@ -2,7 +2,7 @@
 
 Flat screen lock for Flutter.
 
-![](http://o6p4e1uhv.bkt.clouddn.com/IMG_0462.JPG)
+![](http://backup.flutter-dev.cn/IMG_0462.JPG)
 
 ## How to use ?
 
